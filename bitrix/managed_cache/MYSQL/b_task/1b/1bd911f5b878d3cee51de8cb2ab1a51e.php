@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001535031943';
+$dateexpire = '001535035543';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:4:{i:0;a:9:{s:2:"ID";s:2:"31";s:4:"NAME";s:13:"clouds_denied";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"D";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:25:"Доступ закрыт";s:4:"DESC";s:45:"Доступ к модулю запрещен";}i:1;a:9:{s:2:"ID";s:2:"32";s:4:"NAME";s:13:"clouds_browse";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"F";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:23:"Выбор файлов";s:4:"DESC";s:73:"Просмотр содержимого облачных хранилищ";}i:2;a:9:{s:2:"ID";s:2:"33";s:4:"NAME";s:13:"clouds_upload";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"U";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:35:"Перемещение файлов";s:4:"DESC";s:140:"Перемещение файлов в облачные хранилища из структуры сайта и выгрузка новых";}i:3;a:9:{s:2:"ID";s:2:"34";s:4:"NAME";s:18:"clouds_full_access";s:11:"DESCRIPTION";N;s:9:"MODULE_ID";s:6:"clouds";s:6:"LETTER";s:1:"W";s:3:"SYS";s:1:"Y";s:7:"BINDING";s:6:"module";s:5:"TITLE";s:58:"Полный административный доступ";s:4:"DESC";s:78:"Разрешен полный доступ, включая настройки.";}}}';
+return true;
+?>

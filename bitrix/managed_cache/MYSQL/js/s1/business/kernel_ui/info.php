@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/ui/animations/animations.js" => "15349432752113","/bitrix/js/ui/tooltip/tooltip.js" => "15349432759434",)); ?>

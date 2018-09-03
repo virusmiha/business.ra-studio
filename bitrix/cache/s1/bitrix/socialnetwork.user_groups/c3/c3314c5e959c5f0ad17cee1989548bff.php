@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001534944844';
+$dateexpire = '001534948444';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:13:"arCacheResult";a:5:{s:4:"Urls";a:2:{s:9:"GroupsAdd";s:46:"/?page=group_create&user_id=2&filter_project=N";s:9:"LogGroups";s:45:"/?page=log&filter_project=N&flt_entity_type=G";}s:10:"CanViewLog";b:1;s:6:"Groups";a:1:{s:4:"List";a:1:{i:0;a:15:{s:8:"GROUP_ID";s:1:"1";s:10:"GROUP_NAME";s:14:"Приветс";s:12:"GROUP_CLOSED";s:1:"N";s:17:"GROUP_DESCRIPTION";s:0:"";s:22:"GROUP_DESCRIPTION_FULL";s:0:"";s:11:"GROUP_PHOTO";i:0;s:16:"GROUP_PHOTO_FILE";b:0;s:15:"GROUP_PHOTO_IMG";s:160:"<a href="/?page=group&group_id=1&filter_project=N"><img src="/bitrix/images/socialnetwork/nopic_group_150.gif" width="150" height="150" border="0" alt="" /></a>";s:19:"GROUP_PHOTO_RESIZED";b:0;s:26:"GROUP_PHOTO_RESIZED_COMMON";b:0;s:9:"GROUP_URL";s:40:"/?page=group&group_id=1&filter_project=N";s:22:"GROUP_REQUEST_USER_URL";s:53:"/?page=group_request_user&amp;user_id=&amp;group_id=1";s:16:"CAN_INVITE2GROUP";b:0;s:4:"FULL";a:3:{s:21:"DATE_CREATE_FORMATTED";s:19:"01.01.1970 03:00:00";s:21:"DATE_UPDATE_FORMATTED";s:19:"01.01.1970 03:00:00";s:23:"DATE_ACTIVITY_FORMATTED";s:19:"01.01.1970 03:00:00";}s:17:"NUMBER_OF_MEMBERS";s:1:"3";}}}s:10:"NAV_STRING";s:0:"";s:6:"ASSETS";a:2:{s:3:"CSS";a:0:{}s:2:"JS";a:0:{}}}}}';
+return true;
+?>

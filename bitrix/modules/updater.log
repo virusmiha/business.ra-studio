@@ -1,0 +1,687 @@
+2018-08-22 16:17:16 -  - exec CUpdateClient::GetUpdatesList
+2018-08-22 16:17:16 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.2&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=17.5.5&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.5&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-N
+2018-08-22 16:17:16 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:17 -  - TIME GetUpdatesList(request) 0.349 sec
+2018-08-22 16:17:17 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:17 -  - exec CUpdateClient::executeCounters
+2018-08-22 16:17:17 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.2&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=17.5.5&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.5&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-N&query_type=counter&cntr_result[193]=0-0-0-0-0-0
+2018-08-22 16:17:17 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:17 -  - TIME executeCounters 0.208 sec
+2018-08-22 16:17:21 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:21 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:21 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.2&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=17.5.5&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.5&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:21 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:21 -  - TIME LoadModulesUpdates(request) 0.221 sec
+2018-08-22 16:17:21 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:21 - S - STEP
+2018-08-22 16:17:21 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:21 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:21 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:21 -  - loadFile
+2018-08-22 16:17:22 - U - RETURN
+2018-08-22 16:17:22 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:22 -  - TIME UnGzipArchive 0.005 sec
+2018-08-22 16:17:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943842/fileman/updater18.0.3.php'
+2018-08-22 16:17:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943842/fileman/updater18.0.3.php': CopyFiles(install/js, js)
+2018-08-22 16:17:22 -  - TIME UpdateStepModules 0.008 sec
+2018-08-22 16:17:22 - UPD_SUCCESS - Updated: fileman (18.0.3)<br><li>В блочном редакторе удаление блоков сделано более очевидным и понятным.
+2018-08-22 16:17:22 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:22 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:22 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=17.5.5&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.5&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:22 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:22 -  - TIME LoadModulesUpdates(request) 0.21 sec
+2018-08-22 16:17:22 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:22 - S - STEP
+2018-08-22 16:17:22 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:22 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:22 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:22 -  - loadFile
+2018-08-22 16:17:22 - U - RETURN
+2018-08-22 16:17:22 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:22 -  - TIME UnGzipArchive 0.006 sec
+2018-08-22 16:17:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943842/forum/updater18.0.0.php'
+2018-08-22 16:17:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943842/forum/updater18.0.0.php': CopyFiles(install/components, components)
+2018-08-22 16:17:22 -  - TIME UpdateStepModules 0.007 sec
+2018-08-22 16:17:22 - UPD_SUCCESS - Updated: forum (18.0.0)<br><li>В REST-метод forum.message.user.get добавлена выгрузка детальной информации о файлах. <li>Исправление незначительных ошибок. 
+2018-08-22 16:17:22 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:22 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:22 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.5&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:22 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:23 -  - TIME LoadModulesUpdates(request) 0.207 sec
+2018-08-22 16:17:23 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:23 - S - STEP
+2018-08-22 16:17:23 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:23 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:23 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:23 -  - loadFile
+2018-08-22 16:17:23 - U - RETURN
+2018-08-22 16:17:23 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:23 -  - TIME UnGzipArchive 0.004 sec
+2018-08-22 16:17:23 -  - TIME UpdateStepModules 0.003 sec
+2018-08-22 16:17:23 - UPD_SUCCESS - Updated: catalog (17.6.6)<br><li>Исправлена ошибка отмены проведения документов складского учета, возникавшая, когда все склады неактивны. <li>Расширен метод, исправляющий результаты устаревших обработчиков события OnGetOptimalPrice.
+2018-08-22 16:17:23 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:23 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:23 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.22&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:23 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:23 -  - TIME LoadModulesUpdates(request) 0.252 sec
+2018-08-22 16:17:23 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:23 - S - STEP
+2018-08-22 16:17:23 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:24 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:24 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:24 -  - loadFile
+2018-08-22 16:17:24 - U - RETURN
+2018-08-22 16:17:24 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:24 -  - TIME UnGzipArchive 0.003 sec
+2018-08-22 16:17:24 -  - TIME UpdateStepModules 0.003 sec
+2018-08-22 16:17:24 - UPD_SUCCESS - Updated: sale (17.8.23)<br><li>Исправлена ошибка сохранения данных о скидках при создании заказа с несколькими отгрузками. <li>Исправлена ошибка получения скидок на товары при добавлении товара в заказ. <li>Исправлена ошибка расчета величины скидки для показа.
+2018-08-22 16:17:24 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:24 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:24 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.23&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:24 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:24 -  - TIME LoadModulesUpdates(request) 0.219 sec
+2018-08-22 16:17:24 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:24 - S - STEP
+2018-08-22 16:17:24 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:24 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:24 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:24 -  - loadFile
+2018-08-22 16:17:24 - U - RETURN
+2018-08-22 16:17:24 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:24 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:24 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:24 - UPD_SUCCESS - Updated: sale (17.8.24)<br><li>Исправлена ошибка конвертации скидок торгового каталога в правила корзины.
+2018-08-22 16:17:24 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:24 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:24 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=17.6.1&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:24 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:25 -  - TIME LoadModulesUpdates(request) 0.204 sec
+2018-08-22 16:17:25 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:25 - S - STEP
+2018-08-22 16:17:25 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:25 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:25 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:25 -  - loadFile
+2018-08-22 16:17:25 - U - RETURN
+2018-08-22 16:17:25 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:25 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:25 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:25 - UPD_SUCCESS - Updated: blog (18.0.0)<br><li>Добавлено уведомление автора сообщения живой ленты о начале и окончании конвертации видео, приложенного к сообщению.
+2018-08-22 16:17:25 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:25 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:25 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=17.0.2&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:25 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:25 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2018-08-22 16:17:25 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:25 - S - STEP
+2018-08-22 16:17:25 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:25 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:25 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:25 -  - loadFile
+2018-08-22 16:17:25 - U - RETURN
+2018-08-22 16:17:25 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:25 -  - TIME UnGzipArchive 0.005 sec
+2018-08-22 16:17:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943845/photogallery/updater18.0.0.php'
+2018-08-22 16:17:25 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943845/photogallery/updater18.0.0.php': CopyFiles(install/components, components)
+2018-08-22 16:17:25 -  - TIME UpdateStepModules 0.013 sec
+2018-08-22 16:17:25 - UPD_SUCCESS - Updated: photogallery (18.0.0)<br><li>Исправлена ошибка совместимости с PHP 7.1. <li>Исправлена ошибка при загрузке фотографий и ряд других менее значительных ошибок.
+2018-08-22 16:17:25 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:25 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:25 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=17.7.1&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:25 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:26 -  - TIME LoadModulesUpdates(request) 0.329 sec
+2018-08-22 16:17:26 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:26 - S - STEP
+2018-08-22 16:17:26 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:26 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:26 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:26 -  - loadFile
+2018-08-22 16:17:27 - U - RETURN
+2018-08-22 16:17:27 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:27 -  - TIME UnGzipArchive 0.105 sec
+2018-08-22 16:17:27 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943847/socialnetwork/updater18.0.0.php'
+2018-08-22 16:17:27 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943847/socialnetwork/updater18.0.0.php': CopyFiles(install/activities, activities)
+2018-08-22 16:17:27 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943847/socialnetwork/updater18.0.0.php': CopyFiles(install/components, components)
+2018-08-22 16:17:27 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943847/socialnetwork/updater18.0.0.php': CopyFiles(install/js, js)
+2018-08-22 16:17:27 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943847/socialnetwork/updater18.0.0.php': CopyFiles(install/gadgets, gadgets)
+2018-08-22 16:17:27 -  - TIME UpdateStepModules 0.299 sec
+2018-08-22 16:17:27 - UPD_SUCCESS - Updated: socialnetwork (18.0.0)<br><li>Улучшение производительности выборки комментариев рассылки счетчиков живой ленты. <li>Улучшение производительности выборки важных сообщений на главной странице корпративного портала. <li>Добавлен параметр \"Отображать облако тегов на странице группы\" в комплексном компоненте рабочих групп. <li>В REST-методах sonet_group.create и sonet_group.update теперь поддерживаются поля PROJECT_DATE_FINISH и PROJECT_DATE_START для задания даты начала и окончания проекта. <li>Исправление ошибок.
+2018-08-22 16:17:27 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:27 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:27 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:27 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:27 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2018-08-22 16:17:27 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:27 - S - STEP
+2018-08-22 16:17:27 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:27 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:27 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:27 -  - loadFile
+2018-08-22 16:17:28 - U - RETURN
+2018-08-22 16:17:28 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:28 -  - TIME UnGzipArchive 0.017 sec
+2018-08-22 16:17:28 -  - TIME UpdateStepModules 0.029 sec
+2018-08-22 16:17:28 - UPD_SUCCESS - Updated: cluster ()
+2018-08-22 16:17:28 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:28 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:28 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=10.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:28 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:28 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2018-08-22 16:17:28 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:28 - S - STEP
+2018-08-22 16:17:28 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:28 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:28 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:28 -  - loadFile
+2018-08-22 16:17:28 - U - RETURN
+2018-08-22 16:17:28 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:28 -  - TIME UnGzipArchive 0.005 sec
+2018-08-22 16:17:28 -  - TIME UpdateStepModules 0.007 sec
+2018-08-22 16:17:28 - UPD_SUCCESS - Updated: cluster (10.0.1)<br><li>Модуль Веб-кластер позволяет разделить данные сайта на части, резервировать, а также реплицировать все составляющие веб-проекта – веб-сервер и базу данных – на несколько серверов. 
+2018-08-22 16:17:28 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:28 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:28 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=10.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:28 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:29 -  - TIME LoadModulesUpdates(request) 0.371 sec
+2018-08-22 16:17:29 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:29 - S - STEP
+2018-08-22 16:17:29 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:29 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:29 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:29 -  - loadFile
+2018-08-22 16:17:29 - U - RETURN
+2018-08-22 16:17:29 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:29 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943849/cluster/updater10.0.2.php'
+2018-08-22 16:17:29 -  - TIME UpdateStepModules 0.005 sec
+2018-08-22 16:17:29 - UPD_SUCCESS - Updated: cluster (10.0.2)<br><li>Незначительные исправления административного интерфейса. 
+2018-08-22 16:17:29 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:29 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=10.0.2&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:29 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:29 -  - TIME LoadModulesUpdates(request) 0.261 sec
+2018-08-22 16:17:29 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:29 - S - STEP
+2018-08-22 16:17:29 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:29 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:29 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:29 -  - loadFile
+2018-08-22 16:17:30 - U - RETURN
+2018-08-22 16:17:30 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:30 -  - TIME UnGzipArchive 0.005 sec
+2018-08-22 16:17:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943850/cluster/updater10.0.3.php'
+2018-08-22 16:17:30 -  - TIME UpdateStepModules 0.007 sec
+2018-08-22 16:17:30 - UPD_SUCCESS - Updated: cluster (10.0.3)<br><li>Реализовано добавление уже существующей репликации. <li>Исправления ошибок. 
+2018-08-22 16:17:30 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:30 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:30 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=10.0.3&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:30 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:30 -  - TIME LoadModulesUpdates(request) 0.285 sec
+2018-08-22 16:17:30 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:30 - S - STEP
+2018-08-22 16:17:30 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:30 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:30 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:30 -  - loadFile
+2018-08-22 16:17:30 - U - RETURN
+2018-08-22 16:17:30 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:30 -  - TIME UnGzipArchive 0.013 sec
+2018-08-22 16:17:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943850/cluster/updater11.0.0/index.php'
+2018-08-22 16:17:30 -  - TIME UpdateStepModules 0.019 sec
+2018-08-22 16:17:30 - UPD_SUCCESS - Updated: cluster (11.0.0)<br><li>Добавлена поддержка master-master репликации в MySQL. <li>Исправлено несколько незначительных ошибок. 
+2018-08-22 16:17:31 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:31 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:31 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:31 -  - TIME LoadModulesUpdates(request) 0.393 sec
+2018-08-22 16:17:31 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:31 - S - STEP
+2018-08-22 16:17:31 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:31 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:31 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:31 -  - loadFile
+2018-08-22 16:17:31 - U - RETURN
+2018-08-22 16:17:31 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:31 -  - TIME UnGzipArchive 0 sec
+2018-08-22 16:17:31 -  - TIME UpdateStepModules 0.001 sec
+2018-08-22 16:17:31 - UPD_SUCCESS - Updated: cluster (11.0.1)<br><li>Исправление незначительных ошибок административного интерфейса. 
+2018-08-22 16:17:31 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:31 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:31 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:32 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2018-08-22 16:17:32 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:32 - S - STEP
+2018-08-22 16:17:32 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:32 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:32 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:32 -  - loadFile
+2018-08-22 16:17:32 - U - RETURN
+2018-08-22 16:17:32 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:32 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943852/cluster/updater11.0.2.php'
+2018-08-22 16:17:32 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:32 - UPD_SUCCESS - Updated: cluster (11.0.2)<br><li>Исправлена ошибка запуска мастера добавления базы данных для шардинга. 
+2018-08-22 16:17:32 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:32 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.0.2&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:32 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:32 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2018-08-22 16:17:32 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:33 - S - STEP
+2018-08-22 16:17:33 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:33 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:33 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:33 -  - loadFile
+2018-08-22 16:17:33 - U - RETURN
+2018-08-22 16:17:33 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:33 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:33 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943853/cluster/updater11.0.3.php'
+2018-08-22 16:17:33 -  - TIME UpdateStepModules 0.003 sec
+2018-08-22 16:17:33 - UPD_SUCCESS - Updated: cluster (11.0.3)<br><li>Исправление незначительных ошибок административного интерфейса. 
+2018-08-22 16:17:33 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:33 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.0.3&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:33 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:33 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2018-08-22 16:17:33 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:33 - S - STEP
+2018-08-22 16:17:33 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:33 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:33 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:33 -  - loadFile
+2018-08-22 16:17:33 - U - RETURN
+2018-08-22 16:17:33 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:33 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:33 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:33 - UPD_SUCCESS - Updated: cluster (11.0.4)<br><li>Исправления ошибок. 
+2018-08-22 16:17:34 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:34 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:34 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.0.4&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:34 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:34 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2018-08-22 16:17:34 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:34 - S - STEP
+2018-08-22 16:17:34 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:34 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:34 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:34 -  - loadFile
+2018-08-22 16:17:34 - U - RETURN
+2018-08-22 16:17:34 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:34 -  - TIME UnGzipArchive 0.003 sec
+2018-08-22 16:17:34 -  - TIME UpdateStepModules 0.004 sec
+2018-08-22 16:17:34 - UPD_SUCCESS - Updated: cluster (11.5.0)<br><li>Исправления ошибок. 
+2018-08-22 16:17:34 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:34 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:34 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=11.5.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:34 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:34 -  - TIME LoadModulesUpdates(request) 0.224 sec
+2018-08-22 16:17:34 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:34 - S - STEP
+2018-08-22 16:17:34 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:34 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:34 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:34 -  - loadFile
+2018-08-22 16:17:35 - U - RETURN
+2018-08-22 16:17:35 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:35 -  - TIME UnGzipArchive 0.004 sec
+2018-08-22 16:17:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943855/cluster/updater12.0.0.php'
+2018-08-22 16:17:35 -  - TIME UpdateStepModules 0.006 sec
+2018-08-22 16:17:35 - UPD_SUCCESS - Updated: cluster (12.0.0)<br><li>Новый интерфейс административной части. 
+2018-08-22 16:17:35 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:35 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=12.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:35 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:35 -  - TIME LoadModulesUpdates(request) 0.273 sec
+2018-08-22 16:17:35 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:35 - S - STEP
+2018-08-22 16:17:35 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:35 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:35 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:35 -  - loadFile
+2018-08-22 16:17:35 - U - RETURN
+2018-08-22 16:17:35 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:35 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:35 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:35 - UPD_SUCCESS - Updated: cluster (12.0.1)<br><li>Исправлено подключение к memcache (выполнялось слишком часто). <li>Исправлена ошибка сохранения настроек модуля. 
+2018-08-22 16:17:35 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:35 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=12.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:35 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:36 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2018-08-22 16:17:36 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:36 - S - STEP
+2018-08-22 16:17:36 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:36 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:36 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:36 -  - loadFile
+2018-08-22 16:17:36 - U - RETURN
+2018-08-22 16:17:36 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:36 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:36 -  - TIME UpdateStepModules 0.001 sec
+2018-08-22 16:17:36 - UPD_SUCCESS - Updated: cluster (12.5.0)<br><li>Исправления незначительных ошибок.
+2018-08-22 16:17:36 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:36 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=12.5.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:36 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:36 -  - TIME LoadModulesUpdates(request) 0.249 sec
+2018-08-22 16:17:36 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:36 - S - STEP
+2018-08-22 16:17:36 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:37 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:37 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:37 -  - loadFile
+2018-08-22 16:17:37 - U - RETURN
+2018-08-22 16:17:37 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:37 -  - TIME UnGzipArchive 0.005 sec
+2018-08-22 16:17:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943857/cluster/updater12.5.1.php'
+2018-08-22 16:17:37 -  - TIME UpdateStepModules 0.008 sec
+2018-08-22 16:17:37 - UPD_SUCCESS - Updated: cluster (12.5.1)<br><li>Исправления незначительных ошибок.
+2018-08-22 16:17:37 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:37 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=12.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:37 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:38 -  - TIME LoadModulesUpdates(request) 0.226 sec
+2018-08-22 16:17:38 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:38 - S - STEP
+2018-08-22 16:17:38 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:38 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:38 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:38 -  - loadFile
+2018-08-22 16:17:38 - U - RETURN
+2018-08-22 16:17:38 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:38 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:38 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:38 - UPD_SUCCESS - Updated: cluster (14.0.0)<br><li>Добавлена поддержка нового ядра. 
+2018-08-22 16:17:38 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:38 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:38 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=14.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:38 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:39 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2018-08-22 16:17:39 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:39 - S - STEP
+2018-08-22 16:17:39 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:39 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:39 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:39 -  - loadFile
+2018-08-22 16:17:39 - U - RETURN
+2018-08-22 16:17:39 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:39 -  - TIME UnGzipArchive 0.006 sec
+2018-08-22 16:17:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943859/cluster/updater14.5.0.php'
+2018-08-22 16:17:39 -  - TIME UpdateStepModules 0.005 sec
+2018-08-22 16:17:39 - UPD_SUCCESS - Updated: cluster (14.5.0)<br><li>Оптимизировано удаление таблиц при старте репликации. <li>Добавлена поддержка View в мастере запуска репликации. 
+2018-08-22 16:17:39 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:39 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=14.5.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:39 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:39 -  - TIME LoadModulesUpdates(request) 0.192 sec
+2018-08-22 16:17:39 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:39 - S - STEP
+2018-08-22 16:17:39 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:40 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:40 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:40 -  - loadFile
+2018-08-22 16:17:40 - U - RETURN
+2018-08-22 16:17:40 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:40 -  - TIME UnGzipArchive 0.004 sec
+2018-08-22 16:17:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943860/cluster/updater14.5.1.php'
+2018-08-22 16:17:40 -  - TIME UpdateStepModules 0.006 sec
+2018-08-22 16:17:40 - UPD_SUCCESS - Updated: cluster (14.5.1)<br><li>Добавлена страница со списком лицензируемых серверов.
+2018-08-22 16:17:40 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:40 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=14.5.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:40 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:40 -  - TIME LoadModulesUpdates(request) 0.248 sec
+2018-08-22 16:17:40 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:40 - S - STEP
+2018-08-22 16:17:40 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:40 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:40 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:40 -  - loadFile
+2018-08-22 16:17:40 - U - RETURN
+2018-08-22 16:17:40 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:40 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:40 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:40 - UPD_SUCCESS - Updated: cluster (14.5.2)<br><li>CAllClusterDBNode::Delete добавлен параметр остановки слейва. <li>Добавлены переводы.
+2018-08-22 16:17:40 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:40 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=14.5.2&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:41 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:41 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2018-08-22 16:17:41 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:41 - S - STEP
+2018-08-22 16:17:41 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:41 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:41 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:41 -  - loadFile
+2018-08-22 16:17:41 - U - RETURN
+2018-08-22 16:17:41 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:41 -  - TIME UnGzipArchive 0.006 sec
+2018-08-22 16:17:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943861/cluster/updater15.0.0.php'
+2018-08-22 16:17:41 -  - TIME UpdateStepModules 0.009 sec
+2018-08-22 16:17:41 - UPD_SUCCESS - Updated: cluster (15.0.0)<br><li>Добавлена поддержка репликации для SQL-запросов D7. <li>Исправлен ряд ошибок. 
+2018-08-22 16:17:41 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:41 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=15.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:41 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:41 -  - TIME LoadModulesUpdates(request) 0.238 sec
+2018-08-22 16:17:41 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:41 - S - STEP
+2018-08-22 16:17:41 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:41 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:41 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:41 -  - loadFile
+2018-08-22 16:17:42 - U - RETURN
+2018-08-22 16:17:42 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:42 -  - TIME UnGzipArchive 0.003 sec
+2018-08-22 16:17:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943862/cluster/updater15.5.0.php'
+2018-08-22 16:17:42 -  - TIME UpdateStepModules 0.005 sec
+2018-08-22 16:17:42 - UPD_SUCCESS - Updated: cluster (15.5.0)<br><li>Добавлено отображение статистики запросов, выполненных на мастере базы данных. <li>Добавлена страница с отображением всех баз данных. 
+2018-08-22 16:17:42 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:42 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=15.5.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:42 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:42 -  - TIME LoadModulesUpdates(request) 0.211 sec
+2018-08-22 16:17:42 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:42 - S - STEP
+2018-08-22 16:17:42 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:42 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:42 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:42 -  - loadFile
+2018-08-22 16:17:42 - U - RETURN
+2018-08-22 16:17:42 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:42 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:42 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:42 - UPD_SUCCESS - Updated: cluster (16.0.0)<br><li>Незначительные исправления административного интерфейса. 
+2018-08-22 16:17:42 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:42 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=16.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:42 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:43 -  - TIME LoadModulesUpdates(request) 0.204 sec
+2018-08-22 16:17:43 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:43 - S - STEP
+2018-08-22 16:17:43 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:43 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:43 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:43 -  - loadFile
+2018-08-22 16:17:43 - U - RETURN
+2018-08-22 16:17:43 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:43 -  - TIME UnGzipArchive 0.003 sec
+2018-08-22 16:17:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943863/cluster/updater16.5.0.php'
+2018-08-22 16:17:43 -  - TIME UpdateStepModules 0.004 sec
+2018-08-22 16:17:43 - UPD_SUCCESS - Updated: cluster (16.5.0)<br><li>В объявления некоторых методов добавлено ключевое слово static. <li>Улучшена обработка кластерной очереди сброса кеша. <li>Реализована новая стратегия обновления кластерного кеша: кеш перестраивается только одним процессом, а остальные получают сохраненные ранее данные. <li>Для списка memcache серверов добавлено отображение evictions (вытеснений из-за недостатка памяти). 
+2018-08-22 16:17:43 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:43 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=16.5.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:43 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:43 -  - TIME LoadModulesUpdates(request) 0.233 sec
+2018-08-22 16:17:43 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:43 - S - STEP
+2018-08-22 16:17:43 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:43 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:43 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:43 -  - loadFile
+2018-08-22 16:17:43 - U - RETURN
+2018-08-22 16:17:43 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:43 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:43 -  - TIME UpdateStepModules 0.001 sec
+2018-08-22 16:17:43 - UPD_SUCCESS - Updated: cluster (17.0.0)<br><li>Незначительные исправления административного интерфейса. 
+2018-08-22 16:17:44 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:44 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:44 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.0&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:44 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:44 -  - TIME LoadModulesUpdates(request) 0.202 sec
+2018-08-22 16:17:44 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:44 - S - STEP
+2018-08-22 16:17:44 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:44 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:44 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:44 -  - loadFile
+2018-08-22 16:17:44 - U - RETURN
+2018-08-22 16:17:44 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:44 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:44 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:44 - UPD_SUCCESS - Updated: cluster (17.0.1)<br><li>Исправлен расчет распределения нагрузки по слейвам. <li>Улучшена балансировка запросов между базами данных при сбросе кеша. <li>Добавлена возможность настройки работы кластера с базами данных из разных кластерных групп. 
+2018-08-22 16:17:45 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:45 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:45 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.0&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:45 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:45 -  - TIME LoadModulesUpdates(request) 0.212 sec
+2018-08-22 16:17:45 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:45 - S - STEP
+2018-08-22 16:17:45 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:45 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:45 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:45 -  - loadFile
+2018-08-22 16:17:45 - U - RETURN
+2018-08-22 16:17:45 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:45 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:45 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:45 - UPD_SUCCESS - Updated: socialservices (18.0.1)<br><li>Исправление авторизации через Facebook. <li>Исправление переводов. 
+2018-08-22 16:17:46 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:46 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:46 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.5&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:46 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:46 -  - TIME LoadModulesUpdates(request) 0.231 sec
+2018-08-22 16:17:46 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:46 - S - STEP
+2018-08-22 16:17:46 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:46 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:46 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:46 -  - loadFile
+2018-08-22 16:17:47 - U - RETURN
+2018-08-22 16:17:47 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:47 -  - TIME UnGzipArchive 0.019 sec
+2018-08-22 16:17:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943867/report/updater18.0.6.php'
+2018-08-22 16:17:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943867/report/updater18.0.6.php': CopyFiles(install/components, components)
+2018-08-22 16:17:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943867/report/updater18.0.6.php': CopyFiles(install/public/js, js)
+2018-08-22 16:17:47 -  - TIME UpdateStepModules 0.033 sec
+2018-08-22 16:17:47 - UPD_SUCCESS - Updated: report (18.0.6)<br><li>Оптимизирована работа со списочными пользовательскими полями. <li>Добавлены украинские переводы фраз. <li>Исправлена ошибка фильтра, когда при условии \"не равно\" в результат не попадали записи с пустыми значениями. <li>Исправлена ошибка, возникающая во время установки модуля.
+2018-08-22 16:17:47 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:47 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.6&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:47 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:47 -  - TIME LoadModulesUpdates(request) 0.242 sec
+2018-08-22 16:17:47 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:47 - S - STEP
+2018-08-22 16:17:47 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:47 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:47 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:47 -  - loadFile
+2018-08-22 16:17:47 - U - RETURN
+2018-08-22 16:17:47 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:47 -  - TIME UnGzipArchive 0.001 sec
+2018-08-22 16:17:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943867/report/updater18.0.7.php'
+2018-08-22 16:17:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943867/report/updater18.0.7.php': CopyFiles(install/components, components)
+2018-08-22 16:17:47 -  - TIME UpdateStepModules 0.002 sec
+2018-08-22 16:17:47 - UPD_SUCCESS - Updated: report (18.0.7)<br><li>Исправлена ошибка, из-за которой в фильтре отчёта по пользовательскому полю с типом \"Привязка к разделам информационного блока\" отображаются элементы без названий.
+2018-08-22 16:17:48 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:48 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.0.4&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:48 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:48 -  - TIME LoadModulesUpdates(request) 0.216 sec
+2018-08-22 16:17:48 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:48 - S - STEP
+2018-08-22 16:17:48 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:48 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:48 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:48 -  - loadFile
+2018-08-22 16:17:49 - U - RETURN
+2018-08-22 16:17:49 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:49 -  - TIME UnGzipArchive 0.094 sec
+2018-08-22 16:17:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943869/im/updater18.1.0.php'
+2018-08-22 16:17:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943869/im/updater18.1.0.php': CopyFiles(install/components, components)
+2018-08-22 16:17:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943869/im/updater18.1.0.php': CopyFiles(install/js, js)
+2018-08-22 16:17:49 -  - TIME UpdateStepModules 0.094 sec
+2018-08-22 16:17:49 - UPD_SUCCESS - Updated: im (18.1.0)<br><li>Отказ от использования поискового индекса при формировании текста уведомления о лайке. <li>Поддержка различных реакций в уведомлениях о лайке. <li>Исправлена ошибка, при которой мог не осуществляться поиск пользователей в диалоговых окнах после отключения опции \"Включить предварительную загрузку всех пользователей портала для быстрого поиска\". <li>Исправлена ошибка, при которой могла не показываться карточка звонка при наборе номера на телефонном аппарате.
+2018-08-22 16:17:49 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:49 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.1.0&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.4&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:49 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:49 -  - TIME LoadModulesUpdates(request) 0.273 sec
+2018-08-22 16:17:49 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:49 - S - STEP
+2018-08-22 16:17:49 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:50 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:50 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:50 -  - loadFile
+2018-08-22 16:17:50 - U - RETURN
+2018-08-22 16:17:50 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:50 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:50 -  - TIME UpdateStepModules 0.003 sec
+2018-08-22 16:17:50 - UPD_SUCCESS - Updated: rest (18.0.5)<br><li>Оптимизация работы с описаниями REST-сервиса.
+2018-08-22 16:17:50 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:50 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.21&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.1.0&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.5&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:50 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:50 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2018-08-22 16:17:50 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:50 - S - STEP
+2018-08-22 16:17:50 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:50 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:50 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:50 -  - loadFile
+2018-08-22 16:17:51 - U - RETURN
+2018-08-22 16:17:51 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:51 -  - TIME UnGzipArchive 0.151 sec
+2018-08-22 16:17:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943871/landing/updater18.4.30.php'
+2018-08-22 16:17:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943871/landing/updater18.4.30.php': CopyFiles(install/blocks, blocks)
+2018-08-22 16:17:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943871/landing/updater18.4.30.php': CopyFiles(install/components, components)
+2018-08-22 16:17:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943871/landing/updater18.4.30.php': CopyFiles(install/js, js)
+2018-08-22 16:17:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943871/landing/updater18.4.30.php': CopyFiles(install/templates, templates)
+2018-08-22 16:17:52 -  - TIME UpdateStepModules 0.48 sec
+2018-08-22 16:17:52 - UPD_SUCCESS - Updated: landing (18.4.30)<br><li>Добавлен интерфейс создания папки в списке страниц. <li>Предпросмотр сайта вынесен на внешний сервер (для облака). В предпросмотре разрешеныа работа пользовательских скриптов и html-блока. <li>В настройках сайта добавлена возможность его временного отключения и показа пользовательской страницы. <li>Включаемые области теперь не участвуют в интерфейсе конструктора. Также теперь их нельзя открыть как самостоятельные страницы при публикации. <li>REST: Внимание! Изменен принцип добавления мест встраивания. Смотрите методы: landing.repo.bind, landing.repo.unbind. <li>REST: Новый ключ check_area для landing.getlist. <li>Разработчикам: расширен список допустимых html5-тегов при регистрации блока. <li>Усиленная проверка ошибок при загрузке изображения. <li>Исправление ошибки формирования ссылок после перехода с http на https. <li>Исправление ошибки, при которой javascript из блока HTML смещался вниз страницы, а также дублировалось содержимое при редактировании двух и более блоков. <li>Исправление ошибки, при которой пункты меню в шапке блока не работали. <li>Исправление ошибки работы со шрифтами. <li>Исправление ошибки с открытием ссылки в новом окне. <li>Исправление ошибки, когда один блок не мог содержать и редактируемый компонент и прочие типы нод. <li>Испрален ряд прочих ошибок в верстке и редакторе.
+2018-08-22 16:17:52 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:52 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.30&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.1.0&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.5&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:52 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:52 -  - TIME LoadModulesUpdates(request) 0.238 sec
+2018-08-22 16:17:52 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:52 - S - STEP
+2018-08-22 16:17:52 - LMU01 - LoadModulesUpdates-Step
+2018-08-22 16:17:53 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:53 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:53 -  - loadFile
+2018-08-22 16:17:53 - U - RETURN
+2018-08-22 16:17:53 -  - exec CUpdateClient::UnGzipArchive
+2018-08-22 16:17:53 -  - TIME UnGzipArchive 0.002 sec
+2018-08-22 16:17:53 - CSURUS1 - Run updater '/bitrix/updates/update_m1534943873/landing/updater18.4.31.php'
+2018-08-22 16:17:53 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1534943873/landing/updater18.4.31.php': CopyFiles(install/components, components)
+2018-08-22 16:17:53 -  - TIME UpdateStepModules 0.005 sec
+2018-08-22 16:17:53 - UPD_SUCCESS - Updated: landing (18.4.31)<br><li>Техническое обновление. 
+2018-08-22 16:17:53 -  - exec CUpdateClient::LoadModulesUpdates
+2018-08-22 16:17:53 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:17:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.31&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.1.0&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.5&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:17:53 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:17:53 -  - TIME LoadModulesUpdates(request) 0.273 sec
+2018-08-22 16:17:53 -  - exec CUpdateClient::ParseServerData
+2018-08-22 16:17:53 - STEP - Finish - NOUPDATES
+2018-08-22 16:17:53 - STEP - Finish - NOUPDATES
+2018-08-22 16:21:12 -  - exec CUpdateClient::GetUpdatesList
+2018-08-22 16:21:12 -  - exec CUpdateClient::CollectRequestData
+2018-08-22 16:21:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=18.0.3&VERSION=18.0.4&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=business.ra-studio.ml&CHHB=business.ra-studio.ml%3A80&CSAB=127.0.0.1&SUID=7d04989679b34ea6b75991b3ad4ab72d&CANGZIP=Y&CLIENT_PHPVER=7.1.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=18.0.4&bitm_idea=17.5.0&bitm_bitrixcloud=17.5.0&bitm_highloadblock=17.5.1&bitm_cluster=17.0.1&bitm_compression=16.0.0&bitm_landing=18.4.31&bitm_bizprocdesigner=18.0.0&bitm_translate=16.0.0&bitm_eshopapp=16.5.0&bitm_perfmon=17.0.1&bitm_messageservice=18.0.0&bitm_form=18.0.0&bitm_b24connector=18.0.0&bitm_security=17.0.2&bitm_advertising=18.0.0&bitm_fileman=18.0.3&bitm_wiki=17.5.1&bitm_photogallery=18.0.0&bitm_iblock=17.6.8&bitm_report=18.0.7&bitm_conversion=17.5.0&bitm_forum=18.0.0&bitm_vote=17.5.1&bitm_socialservices=18.0.1&bitm_mobileapp=18.0.0&bitm_webservice=17.0.0&bitm_mail=17.5.7&bitm_calendar=17.5.14&bitm_pull=17.5.5&bitm_subscribe=17.5.0&bitm_abtest=17.5.0&bitm_im=18.1.0&bitm_blog=18.0.0&bitm_clouds=18.0.0&bitm_ldap=17.0.1&bitm_support=16.0.0&bitm_currency=18.0.0&bitm_sale=17.8.24&bitm_scale=17.5.0&bitm_catalog=17.6.6&bitm_rest=18.0.5&bitm_learning=17.5.0&bitm_socialnetwork=18.0.0&bitm_sender=18.0.5&bitm_storeassist=16.0.1&bitm_workflow=17.0.1&bitm_search=17.6.0&bitm_bizproc=18.0.1&bitm_statistic=17.0.1&bitm_seo=18.1.0&bitm_ui=17.6.4&bitm_lists=17.0.18&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_3_sign-Y
+2018-08-22 16:21:12 -  - exec CUpdateClient::GetHTTPPage
+2018-08-22 16:21:13 -  - TIME GetUpdatesList(request) 0.214 sec
+2018-08-22 16:21:13 -  - exec CUpdateClient::ParseServerData

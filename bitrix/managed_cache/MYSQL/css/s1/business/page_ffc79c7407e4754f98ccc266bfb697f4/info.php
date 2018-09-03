@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/socialnetwork/common/socialnetwork.common.css" => "1534943264727","/bitrix/components/bitrix/socialnetwork/templates/.default/style.css" => "153494326416263",)); ?>
